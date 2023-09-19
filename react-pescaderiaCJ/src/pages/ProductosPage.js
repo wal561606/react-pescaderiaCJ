@@ -15,10 +15,8 @@ const ProductosPage = (props) => {
       const cargarProductos = async () => {
         setLoading(true);
         const urls = [
-          'http://192.168.0.25:3000/api/productos',
-          'http://localhost:3000/api/productos',
-          'http://sg8wxh7k-3000.brs.devtunnels.ms/api/productos'
-        ];
+          'https://node-production-fd63.up.railway.app/api/productos',
+          ];
         
         const response = await axios.get(urls.find(url => url));
         
