@@ -15,10 +15,8 @@ const RecetasPage = (props) => {
       const cargarRecetas = async () => {
         setLoading(true);
         const urls = [
-          'http://192.168.0.25:3000/api/recetas',
-          'http://localhost:3000/api/recetas',
-          'http://sg8wxh7k-3000.brs.devtunnels.ms/api/recetas'
-        ];
+          'https://node-production-fd63.up.railway.app/api/recetas',
+         ];
         
         const response = await axios.get(urls.find(url => url));
         setRecetas(response.data);
