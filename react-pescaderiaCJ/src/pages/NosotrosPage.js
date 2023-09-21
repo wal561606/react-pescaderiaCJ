@@ -26,6 +26,8 @@ const NosotrosPage = (props) => {
             </p>
         </div>
           </Col>
+          </Row>
+          <Row>
           <Col>
           <div className="staff">
             <h2>Nuestro Capitan</h2>
@@ -84,6 +86,15 @@ const NosotrosPage = (props) => {
         
         
       </Container>
+        
+        
+        
+        
+       
+    );
+}
+
+export default NosotrosPage;
         
         
         
