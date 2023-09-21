@@ -32,7 +32,7 @@ const ContactoPage = (props) => {
         setSending(true)
         const response = await
 
-axios.post('https://node-production-fd63.up.railway.app/api/productos', formData);
+axios.post('https://node-production-fd63.up.railway.app/api/contacto', formData);
         setSending(false);
         setMsg(response.data.message);
         if (response.data.error === false) {
