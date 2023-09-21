@@ -69,6 +69,7 @@ const HomePage = (props) => {
       <Row xs={1} md={3} className="g-2">
       {presentacion.map((presentacion) => (
         <Col key={presentacion.id}>
+          <a href={presentacion.enlace} target="_blank" rel="noreferrer">
           <Card className="tarjetaproducto">
             <Card.Img
               variant="top"
@@ -81,6 +82,7 @@ const HomePage = (props) => {
               
             </Card.Body>
           </Card>
+          </a>
         </Col>
       ))}
     </Row>
