@@ -97,10 +97,4 @@ const NosotrosPage = (props) => {
 export default NosotrosPage;
         
         
-        
-        
-       
-    );
-}
-
-export default NosotrosPage;
+ 
