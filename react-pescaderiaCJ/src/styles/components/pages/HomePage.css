@@ -41,9 +41,13 @@ h1 {
   border-radius: 0.5rem;
   transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
   opacity: 0; /* Establecemos la opacidad inicial de la tarjeta en 0 */
+  
 }
 
-/* Resto de tu CSS... */
+.no-subrayado {
+  text-decoration: none;
+}
+
 
 /* Estilos gral */
 .contenedor1 {
@@ -89,6 +93,11 @@ h1 {
   border-radius: 0.5rem;
   transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
   opacity: 0; /* Establecemos la opacidad inicial de la tarjeta en 0 */
+  text-decoration: none;
+}
+.tarjetaproducto a {
+  text-decoration: none; /* Evita el subrayado de los enlaces */
+  color: inherit; /* Hereda el color del texto del elemento padre */
 }
 
 .tarjetaproducto:nth-child(even) {
