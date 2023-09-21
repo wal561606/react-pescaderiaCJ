@@ -1,68 +1,67 @@
 .contenedor {
-    background: linear-gradient(to top, #ccc, #fff);
-    padding: 10px;
-    width: 100%;
+  background: linear-gradient(to top, #ccc, #fff);
+  padding: 10px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .historia p {
-    font-size: 16px;
+  font-size: 14px;
 }
 
 .personas {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 .persona {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
-    text-align: center;
-    padding: 13px;
-    box-sizing: border-box;
-    
-    
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 13px;
+  box-sizing: border-box;
 }
 
-
-
 .image-container {
-    width: 200px; 
-    height: 200px; 
-    overflow: hidden;
-    border-radius: 50%;
-    display: inline-block;
-  }
-  
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
-  }
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
 
 .persona h5,
 .persona h6 {
-    margin: 0;
-    font-weight: normal;
-    color: #F19F4D;
+  margin: 0;
+  font-weight: normal;
+  color: #F19F4D;
 }
 
 .persona h5 {
-    font-size: 14 px;
-    margin-top: 5px;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .persona h6 {
-    font-size: 11px;
-    font-style: italic;
+  font-size: 11px;
+  font-style: italic;
 }
 
 .persona p {
-    color: #666;
-    font-size: 14px;
+  color: #666;
+  font-size: 14px;
 }
+
 .image-shadow {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
