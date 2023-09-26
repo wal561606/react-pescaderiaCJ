@@ -39,7 +39,7 @@
       "nombre": "Productos propios",
       "imagen": "/images/tarucha.jpg",
       "descripcion": "Disfrutá de nuestras elaboraciones propias, milanezas, empanadas y más... Todas preparadas en el día.",
-      "enlace": ""
+      "enlace": "/productos"
     },
     {
       "id": 7,
