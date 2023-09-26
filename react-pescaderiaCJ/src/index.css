@@ -23,3 +23,15 @@ body {
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+@keyframes whatsappAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px); /* Mueve hacia abajo */
+  }
+  100% {
+    transform: translateY(0); /* Vuelve a la posición inicial */
+  }
+}
