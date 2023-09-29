@@ -16,9 +16,7 @@ const NovedadesPage = (props) => {
             <h3>Pescaderias Capitan Jack</h3>
             <h4>Rafaela</h4>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-
+            Aquí compartiremos novedades, sorteos, promociones y más.
             </p>
             <br />
             <br />
